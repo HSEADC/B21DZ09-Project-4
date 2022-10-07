@@ -5,8 +5,8 @@
 Clone the repository, install packages, start
 
 ```
-git clone https://github.com/HSEADC/B21DZ09-Project-3.git
-cd B21DZ09-Project-3
+git clone https://github.com/HSEADC/B21DZ09-Project-4.git
+cd B21DZ09-Project-4
 yarn
 yarn start
 ```
