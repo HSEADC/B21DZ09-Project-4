@@ -3,7 +3,7 @@ body.index {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #0A0A0A;
+  background-color: #0a0a0a;
 
   & > div,
   & > a {
@@ -12,69 +12,131 @@ body.index {
 }
 .links {
   margin: 0 auto;
-  font-family: Montserrat,sans-serif; font-style: normal; font-weight: 600; color: #DADADA;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  color: #dadada;
   text-decoration: none;
 }
 
-h1 {font-family: Montserrat,sans-serif; font-style: normal; font-weight: 600; color: #DADADA;}
-h2 {font-family: Montserrat,sans-serif; font-style: normal; font-weight: 400; color: #DADADA;}
+h1 {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  color: #dadada;
+}
+h2 {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #dadada;
+}
 .logo {
-    z-index: 1;
-    position: fixed;
-    top: 1.1%;
-    left: 1.5%;
+  z-index: 1;
+  position: fixed;
+  top: 1.1%;
+  left: 1.5%;
 }
-.logo h1 {font-size: 2rem; line-height: 1rem;}
-.text-down {
-    max-width: 100%;
-    z-index: 1;
-}
-.text-down1, .text-down2 {
-    position: fixed;
-    top: 92%;
-    margin: 0 auto;
-    width: 98%;
-    vertical-align: bottom;
+.logo h1 {
+  font-size: 2rem;
+  line-height: 1rem;
 }
 .text-down {
-    padding-left: 1%;
+  max-width: 100%;
+  z-index: 1;
+}
+.text-down1,
+.text-down2 {
+  position: fixed;
+  top: 92%;
+  margin: 0 auto;
+  width: 98%;
+  vertical-align: bottom;
+}
+.text-down {
+  padding-left: 1%;
 }
 .text-down2 {
-    margin-left: 82%;
+  margin-left: 82%;
 }
 .text-down1 {
-    font-size: 1rem; line-height: 1rem;
+  font-size: 1rem;
+  line-height: 1rem;
 }
 .text-down2 {
-    font-size: 1rem; line-height: 1rem;
+  font-size: 1rem;
+  line-height: 1rem;
 }
 .anim-shortcut {
-    z-index: 2;
-    margin: 0 auto;
-    margin-top: 10.5%;
-    padding: 4%;
+  z-index: 2;
+  margin: 0 auto;
+  margin-top: 10.5%;
+  padding: 5%;
 }
 .shortcut {
-    font-family: Montserrat,sans-serif; 
-    font-style: normal;
-    font-weight: 600;
-    color: #DADADA;
-    text-align: center;
-    font-size: 15rem;
-    animation: change-text 1.5s infinite;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  color: #dadada;
+  text-align: center;
+  font-size: 15rem;
+  animation: change-text 1.5s infinite;
 }
 @keyframes change-text {
-    10% { font-weight: 300; font-style: normal; text-decoration: none; text-transform: none;}
-    20% { font-weight: 500; font-style: italic; text-decoration: underline; text-decoration-thickness: 0.6rem; text-underline-offset: 2rem; text-transform: capitalize;}
-    30% { font-weight: 200; font-style: normal; text-decoration-line: line-through; text-decoration-thickness: 0.7rem; text-transform: none;}
-    40% { font-weight: 600; font-style: italic; text-decoration: none; text-transform: lowercase;}
-    50% { font-weight: 100; font-style: italic; text-decoration-line: line-through; text-decoration-thickness: 0.7rem; text-transform: none;}
-    60% { font-weight: 700; font-style: normal; text-decoration: none;text-transform: lowercase;}
-    70% { font-weight: 400; font-style: italic; text-decoration: underline; text-decoration-thickness: 0.7rem; text-underline-offset: 3rem; text-transform: capitalize;}
+  10% {
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+  }
+  20% {
+    font-weight: 500;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-thickness: 0.6rem;
+    text-underline-offset: 2rem;
+    text-transform: capitalize;
+  }
+  30% {
+    font-weight: 200;
+    font-style: normal;
+    text-decoration-line: line-through;
+    text-decoration-thickness: 0.7rem;
+    text-transform: none;
+  }
+  40% {
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: lowercase;
+  }
+  50% {
+    font-weight: 100;
+    font-style: italic;
+    text-decoration-line: line-through;
+    text-decoration-thickness: 0.7rem;
+    text-transform: none;
+  }
+  60% {
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: lowercase;
+  }
+  70% {
+    font-weight: 400;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-thickness: 0.7rem;
+    text-underline-offset: 3rem;
+    text-transform: capitalize;
+  }
 }
 @media (max-width: 1000px) {
-    .anim-shortcut {margin-top: 14.5%;}
-    .shortcut {font-size: 13rem;}
+  .anim-shortcut {
+    margin-top: 14.5%;
+  }
+  .shortcut {
+    font-size: 13rem;
+  }
 }
-
-
