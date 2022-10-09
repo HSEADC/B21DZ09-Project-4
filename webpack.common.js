@@ -88,8 +88,43 @@ module.exports = {
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/pages/page.html',
-      filename: './pages/page.html',
+      template: './src/shotrcuts/about.html',
+      filename: './shortcuts/about.html',
+      chunks: ['page']
+    }),
+    // Internal pages
+      new HtmlWebpackPlugin({
+        hash: true,
+        scriptLoading: 'blocking',
+        template: './src/shotrcuts/articles.html',
+        filename: './shortcuts/articles.html',
+        chunks: ['page']
+      }),
+
+    // Internal pages
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/shotrcuts/catalog.html',
+      filename: './shortcuts/catalog.html',
+      chunks: ['page']
+    }),
+
+    // Internal pages
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/shotrcuts/collections.html',
+      filename: './shortcuts/collections.html',
+      chunks: ['page']
+    }),
+
+    // Internal pages
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/shotrcuts/training.html',
+      filename: './shortcuts/training.html',
       chunks: ['page']
     }),
 
