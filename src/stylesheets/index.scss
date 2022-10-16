@@ -3,8 +3,8 @@ body.index {
   font-family: "Inter", sans-serif;
 }
 a {text-decoration: none;}
-h1 {font-style: normal; font-weight: 600; color: #DADADA;}
-h2 {font-style: normal; font-weight: 300; color: #DADADA;}
+
+// block1
 
 .block1 {
     padding: 0.1% 0.2%;
@@ -18,9 +18,6 @@ h2 {font-style: normal; font-weight: 300; color: #DADADA;}
       "shortcut shortcut"
       "left right"; 
 }
-// .block1-grid div {
-//     border: 1px dashed #7e7e7e;
-// }
 .null {
     grid-area: null;
 }
@@ -42,6 +39,9 @@ h2 {font-style: normal; font-weight: 300; color: #DADADA;}
     position: relative;
     top: 40%;
     left: 5%;
+    font-style: normal;
+    font-weight: 600;
+    color: $white;
 }
 .text-logo h1:hover {
     color: $green;
@@ -50,12 +50,17 @@ h2 {font-style: normal; font-weight: 300; color: #DADADA;}
     margin: 2.5% auto 6.5% auto;
 }
 .shortcut-text {
-  font-style: normal;
-  font-weight: 600;
-  color: $white;
-  text-align: center;
-  font-size: 25rem;
-  animation: change-text 1.5s infinite;
+    font-style: normal;
+    font-weight: 600;
+    color: $white;
+    text-align: center;
+    font-size: 25rem;
+    animation: change-text 1.5s infinite;
+    animation-play-state: running;
+    cursor: help;
+}
+.shortcut-text:hover {
+    animation-play-state: paused;
 }
 @keyframes change-text {
   10% { font-weight: 300; font-style: normal; text-decoration: none; text-transform: none;}
@@ -72,18 +77,335 @@ h2 {font-style: normal; font-weight: 300; color: #DADADA;}
 .text-left h2 {
     position: relative;
     margin-left: 5%;
+    font-style: normal;
+    font-weight: 300;
+    color: $white;
 }
 .text-left h2:hover {
   color: $green;
 }
 .text-right h2 {
     position: relative;
-    margin-left: 71%;
+    margin-left: 67%;
+    font-style: normal;
+    font-weight: 300;
+    color: $white;
 }
 .text-right h2:hover {
   color: $green;
 }
 
-.block3 {
-    padding-top: 20%;
+// block2
+
+.block2 {
+    padding-top: 3%;
+    padding-bottom: 13%;
+    margin: 0 auto 20% auto;
+    max-width: 64.5%;
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-template-rows: 0.5fr 0.5fr; 
+    grid-template-areas: 
+      "tags"
+      "startup"; 
+}
+.tags-index {
+    grid-area: tags;
+}
+.startup-index {
+    grid-area: startup;
+    margin: 0 auto;
+}
+.tags-index1 {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1%;
+    justify-content: center;
+}
+.tags-index2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.tags-index div {
+    margin-right: 1%;
+}
+.tags-index a {
+    margin-right: 1%;
+}
+.tags-index1-1 h3 {
+    height: 50px;
+    width: 119px;
+    border: 2.5px solid $dark-grey;
+    border-radius: 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: "SF Pro Display", sans-serif; 
+    font-style: normal; 
+    color: $dark-grey;
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+.tags-index1-2 h3 {
+    height: 50px;
+    width: 153px;
+    border: 2.5px solid $dark-grey;
+    border-radius: 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: "SF Pro Display", sans-serif; 
+    font-style: normal; 
+    color: $dark-grey;
+    display: grid;
+    place-items: center;
+}
+.tags-index1-3 h3 {
+    height: 50px;
+    width: 166px;
+    border: 2.5px solid $dark-grey;
+    background-color: $dark-grey;
+    border-radius: 42px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: "SF Pro Display", sans-serif; 
+    font-style: normal; 
+    color: $black;
+    display: grid;
+    place-items: center;
+    cursor: wait;
+}
+.tags-index1-3 h3:hover {
+    background-color: $dark-grey;
+    border: 2.5px solid $dark-grey;
+}
+.tags-index1-4 h3 {
+    height: 50px;
+    width: 124px;
+    border: 2.5px solid $dark-grey;
+    border-radius: 42px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: "SF Pro Display", sans-serif; 
+    font-style: normal; 
+    color: $dark-grey;
+    display: grid;
+    place-items: center;
+}
+.tags-index1-5 h3 {
+    height: 50px;
+    width: 158px;
+    border: 2.5px solid $dark-grey;
+    border-radius: 42px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: "SF Pro Display", sans-serif; 
+    font-style: normal; 
+    color: $dark-grey;
+    display: grid;
+    place-items: center;
+}
+.tags-index1-6 h3 {
+    height: 50px;
+    width: 132px;
+    border: 2.5px solid $dark-grey;
+    background-color: $dark-grey;
+    border-radius: 42px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: "SF Pro Display", sans-serif; 
+    font-style: normal; 
+    color: $black;
+    display: grid;
+    place-items: center;
+    cursor: wait;
+}
+.tags-index1-6 h3:hover {
+    background-color: $dark-grey;
+    border: 2.5px solid $dark-grey;
+}
+.tags-index1-7 h3 {
+    height: 50px;
+    width: 125px;
+    border: 2.5px solid $dark-grey;
+    border-radius: 42px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: "SF Pro Display", sans-serif; 
+    font-style: normal; 
+    color: $dark-grey;
+    display: grid;
+    place-items: center;
+}
+.tags-index1-8 h3 {
+    height: 50px;
+    width: 125px;
+    border: 2.5px solid $dark-grey;
+    border-radius: 42px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: "SF Pro Display", sans-serif; 
+    font-style: normal; 
+    color: $dark-grey;
+    display: grid;
+    place-items: center;
+}
+.tags-index2-1 h3 {
+    height: 50px;
+    width: 132px;
+    border: 2.5px solid $dark-grey;
+    background-color: $dark-grey;
+    border-radius: 42px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: "SF Pro Display", sans-serif; 
+    font-style: normal; 
+    color: $black;
+    display: grid;
+    place-items: center;
+    cursor: wait;
+}
+.tags-index2-1 h3:hover {
+    background-color: $dark-grey;
+    border: 2.5px solid $dark-grey;
+}
+.tags-index2-2 h3 {
+    height: 50px;
+    width: 178px;
+    border: 2.5px solid $dark-grey;
+    border-radius: 42px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: "SF Pro Display", sans-serif; 
+    font-style: normal; 
+    color: $dark-grey;
+    display: grid;
+    place-items: center;
+}
+.tags-index2-3 h3 {
+    height: 50px;
+    width: 132px;
+    border: 2.5px solid $white;
+    background-color: $white;
+    border-radius: 42px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: "SF Pro Display", sans-serif; 
+    font-style: normal; 
+    color: $black;
+    display: grid;
+    place-items: center;
+}
+.tags-index2-3 h3:hover {
+    background-color: $green;
+    border: 2.5px solid $green;
+}
+.tags-index2-4 h3 {
+    height: 50px;
+    width: 170px;
+    border: 2.5px solid $green;
+    background-color: $green;
+    border-radius: 42px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: "SF Pro Display", sans-serif; 
+    font-style: normal; 
+    color: #0A0A0A;
+    display: grid;
+    place-items: center;
+}
+.tags-index2-4 h3:hover {
+    background-color: $white;
+    border: 2.5px solid $white;
+}
+.tags-index2-5 h3 {
+    height: 50px;
+    width: 136px;
+    border: 2.5px solid $dark-grey;
+    border-radius: 42px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: "SF Pro Display", sans-serif; 
+    font-style: normal; 
+    color: $dark-grey;
+    display: grid;
+    place-items: center;
+}
+.tags-index2-6 h3 {
+    height: 50px;
+    width: 163px;
+    border: 2.5px solid $dark-grey;
+    border-radius: 42px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: "SF Pro Display", sans-serif; 
+    font-style: normal; 
+    color: $dark-grey;
+    display: grid;
+    place-items: center;
+}
+.startup-text-index {
+    padding-top: 13%;
+}
+.startup-text-index h4 {
+    font-size: 5.5rem;
+    text-align: center;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-family: "SF Pro Display", sans-serif; 
+    font-style: normal; 
+    font-weight: 400; 
+    color: $white;
+}
+.startup-text-index h5 {
+    padding-top: 4%;
+    font-size: 1.55rem;
+    line-height: 1.8rem;
+    letter-spacing: 0.07rem;
+    text-align: center;
+    font-family: "SF Pro Display", sans-serif; 
+    font-style: normal; 
+    font-weight: 300; 
+    color: $white;
+}
+.startup-email-index {
+    padding-top: 6%;
+}
+.email-form {
+    position: relative;
+    max-width: 46.5%;
+    margin: 0 auto;
+}
+.input-email {
+    color: $white;
+    min-width: 420px;
+    min-height: 50px;
+    border: 1.5px solid $white;
+    border-radius: 42.1569px;
+    background-color: $black;
+}
+input[placeholder] {
+    padding-left: 5%;
+    font-size: 1.8rem;
+}
+.input-email::-webkit-input-placeholder {
+    color: $dark-grey;
+}
+button {
+    outline: none;
+    border: 0;
+    background: transparent;
+    position: absolute;
+    top: 11.5%;
+    right: 8%;
+}
+#email-form-done {
+    position: absolute;
+    padding-top: 3%;
+    left: 35%;
+    font-size: 1rem;
+    font-family: "SF Pro Display", sans-serif; 
+    font-style: normal; 
+    font-weight: 300; 
+    color: $green;
 }
