@@ -1,3 +1,6 @@
+html.index {
+    scroll-behavior: smooth;
+    }
 body.index {
   background-color: $black;
   font-family: "Inter", sans-serif;
@@ -12,7 +15,7 @@ a {text-decoration: none;}
 .block1-grid {
     display: grid; 
     grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 0.4fr 0.8fr 0.1fr; 
+    grid-template-rows: 20% 96% 3%;
     grid-template-areas: 
       "logo null"
       "shortcut shortcut"
@@ -97,10 +100,12 @@ a {text-decoration: none;}
 
 // block2
 
+#email-target {
+    margin-top: 10%
+}
 .block2 {
-    padding-top: 3%;
-    padding-bottom: 13%;
-    margin: 0 auto 20% auto;
+    padding-top: 2%;
+    margin: 0 auto;
     max-width: 64.5%;
     display: grid;
     grid-template-columns: 1fr; 
@@ -136,13 +141,12 @@ a {text-decoration: none;}
 .tags-index1-1 h3 {
     height: 50px;
     width: 119px;
-    border: 2.5px solid $dark-grey;
+    border: 2.5px solid $grey2;
     border-radius: 42px;
     font-size: 1.5rem;
     font-weight: 500;
-    font-family: "SF Pro Display", sans-serif; 
     font-style: normal; 
-    color: $dark-grey;
+    color: $grey2;
     position: relative;
     display: grid;
     place-items: center;
@@ -150,25 +154,23 @@ a {text-decoration: none;}
 .tags-index1-2 h3 {
     height: 50px;
     width: 153px;
-    border: 2.5px solid $dark-grey;
+    border: 2.5px solid $grey2;
     border-radius: 42px;
     font-size: 1.5rem;
     font-weight: 500;
-    font-family: "SF Pro Display", sans-serif; 
     font-style: normal; 
-    color: $dark-grey;
+    color: $grey2;
     display: grid;
     place-items: center;
 }
 .tags-index1-3 h3 {
     height: 50px;
     width: 166px;
-    border: 2.5px solid $dark-grey;
-    background-color: $dark-grey;
+    border: 2.5px solid $grey2;
+    background-color: $grey2;
     border-radius: 42px;
     font-size: 1.5rem;
     font-weight: 600;
-    font-family: "SF Pro Display", sans-serif; 
     font-style: normal; 
     color: $black;
     display: grid;
@@ -176,44 +178,41 @@ a {text-decoration: none;}
     cursor: wait;
 }
 .tags-index1-3 h3:hover {
-    background-color: $dark-grey;
-    border: 2.5px solid $dark-grey;
+    background-color: $grey2;
+    border: 2.5px solid $grey2;
 }
 .tags-index1-4 h3 {
     height: 50px;
     width: 124px;
-    border: 2.5px solid $dark-grey;
+    border: 2.5px solid $grey2;
     border-radius: 42px;
     font-size: 1.5rem;
     font-weight: 600;
-    font-family: "SF Pro Display", sans-serif; 
     font-style: normal; 
-    color: $dark-grey;
+    color: $grey2;
     display: grid;
     place-items: center;
 }
 .tags-index1-5 h3 {
     height: 50px;
     width: 158px;
-    border: 2.5px solid $dark-grey;
+    border: 2.5px solid $grey2;
     border-radius: 42px;
     font-size: 1.5rem;
     font-weight: 600;
-    font-family: "SF Pro Display", sans-serif; 
     font-style: normal; 
-    color: $dark-grey;
+    color: $grey2;
     display: grid;
     place-items: center;
 }
 .tags-index1-6 h3 {
     height: 50px;
     width: 132px;
-    border: 2.5px solid $dark-grey;
-    background-color: $dark-grey;
+    border: 2.5px solid $grey2;
+    background-color: $grey2;
     border-radius: 42px;
     font-size: 1.5rem;
     font-weight: 600;
-    font-family: "SF Pro Display", sans-serif; 
     font-style: normal; 
     color: $black;
     display: grid;
@@ -221,44 +220,41 @@ a {text-decoration: none;}
     cursor: wait;
 }
 .tags-index1-6 h3:hover {
-    background-color: $dark-grey;
-    border: 2.5px solid $dark-grey;
+    background-color: $grey2;
+    border: 2.5px solid $grey2;
 }
 .tags-index1-7 h3 {
     height: 50px;
-    width: 125px;
-    border: 2.5px solid $dark-grey;
+    width: 195px;
+    border: 2.5px solid $grey2;
     border-radius: 42px;
     font-size: 1.5rem;
     font-weight: 600;
-    font-family: "SF Pro Display", sans-serif; 
     font-style: normal; 
-    color: $dark-grey;
+    color: $grey2;
     display: grid;
     place-items: center;
 }
 .tags-index1-8 h3 {
     height: 50px;
     width: 125px;
-    border: 2.5px solid $dark-grey;
+    border: 2.5px solid $grey2;
     border-radius: 42px;
     font-size: 1.5rem;
     font-weight: 600;
-    font-family: "SF Pro Display", sans-serif; 
     font-style: normal; 
-    color: $dark-grey;
+    color: $grey2;
     display: grid;
     place-items: center;
 }
 .tags-index2-1 h3 {
     height: 50px;
     width: 132px;
-    border: 2.5px solid $dark-grey;
-    background-color: $dark-grey;
+    border: 2.5px solid $grey2;
+    background-color: $grey2;
     border-radius: 42px;
     font-size: 1.5rem;
     font-weight: 600;
-    font-family: "SF Pro Display", sans-serif; 
     font-style: normal; 
     color: $black;
     display: grid;
@@ -266,21 +262,26 @@ a {text-decoration: none;}
     cursor: wait;
 }
 .tags-index2-1 h3:hover {
-    background-color: $dark-grey;
-    border: 2.5px solid $dark-grey;
+    background-color: $grey2;
+    border: 2.5px solid $grey2;
 }
 .tags-index2-2 h3 {
     height: 50px;
     width: 178px;
-    border: 2.5px solid $dark-grey;
+    border: 2.5px solid $grey;
     border-radius: 42px;
     font-size: 1.5rem;
     font-weight: 600;
-    font-family: "SF Pro Display", sans-serif; 
     font-style: normal; 
-    color: $dark-grey;
+    color: $grey;
     display: grid;
     place-items: center;
+    cursor: help;
+}
+.tags-index2-2 h3:hover {
+    color: $black;
+    background-color: $green;
+    border: 2.5px solid $green;
 }
 .tags-index2-3 h3 {
     height: 50px;
@@ -290,7 +291,6 @@ a {text-decoration: none;}
     border-radius: 42px;
     font-size: 1.5rem;
     font-weight: 600;
-    font-family: "SF Pro Display", sans-serif; 
     font-style: normal; 
     color: $black;
     display: grid;
@@ -308,7 +308,6 @@ a {text-decoration: none;}
     border-radius: 42px;
     font-size: 1.5rem;
     font-weight: 600;
-    font-family: "SF Pro Display", sans-serif; 
     font-style: normal; 
     color: #0A0A0A;
     display: grid;
@@ -320,29 +319,33 @@ a {text-decoration: none;}
 }
 .tags-index2-5 h3 {
     height: 50px;
-    width: 136px;
-    border: 2.5px solid $dark-grey;
+    width: 163px;
+    border: 2.5px solid $grey2;
     border-radius: 42px;
     font-size: 1.5rem;
     font-weight: 600;
-    font-family: "SF Pro Display", sans-serif; 
     font-style: normal; 
-    color: $dark-grey;
+    color: $grey2;
     display: grid;
     place-items: center;
 }
 .tags-index2-6 h3 {
     height: 50px;
-    width: 163px;
-    border: 2.5px solid $dark-grey;
+    width: 136px;
+    border: 2.5px solid $grey;
     border-radius: 42px;
     font-size: 1.5rem;
     font-weight: 600;
-    font-family: "SF Pro Display", sans-serif; 
     font-style: normal; 
-    color: $dark-grey;
+    color: $grey;
     display: grid;
     place-items: center;
+    cursor: help;
+}
+.tags-index2-6 h3:hover {
+    color: $black;
+    background-color: $green;
+    border: 2.5px solid $green;
 }
 .startup-text-index {
     padding-top: 13%;
@@ -352,7 +355,6 @@ a {text-decoration: none;}
     text-align: center;
     margin-block-start: 0em;
     margin-block-end: 0em;
-    font-family: "SF Pro Display", sans-serif; 
     font-style: normal; 
     font-weight: 400; 
     color: $white;
@@ -363,7 +365,6 @@ a {text-decoration: none;}
     line-height: 1.8rem;
     letter-spacing: 0.07rem;
     text-align: center;
-    font-family: "SF Pro Display", sans-serif; 
     font-style: normal; 
     font-weight: 300; 
     color: $white;
@@ -373,7 +374,7 @@ a {text-decoration: none;}
 }
 .email-form {
     position: relative;
-    max-width: 46.5%;
+    max-width: 39.5%;
     margin: 0 auto;
 }
 .input-email {
@@ -389,7 +390,7 @@ input[placeholder] {
     font-size: 1.8rem;
 }
 .input-email::-webkit-input-placeholder {
-    color: $dark-grey;
+    color: $grey2;
 }
 button {
     outline: none;
@@ -397,15 +398,103 @@ button {
     background: transparent;
     position: absolute;
     top: 11.5%;
-    right: 8%;
+    right: 2%;
 }
 #email-form-done {
     position: absolute;
     padding-top: 3%;
     left: 35%;
     font-size: 1rem;
-    font-family: "SF Pro Display", sans-serif; 
     font-style: normal; 
     font-weight: 300; 
     color: $green;
+}
+
+// footer-index
+
+.footer-index {
+    padding-top: 1.6%;
+    padding-bottom: 1%;
+}
+.footer-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footer-index a:nth-child(-n+3) {
+    margin-right: 1%;
+}
+.footer-item-index1 h3 {
+    height: 50px;
+    width: 141px;
+    border: 2.5px solid $grey;
+    border-radius: 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-style: normal; 
+    color: $grey;
+    display: grid;
+    place-items: center;
+}
+.footer-item-index1 h3:hover {
+    color: $green;
+    border: 2.5px solid $green;
+}
+.footer-item-index2 {
+    height: 50px;
+    width: 50px;
+    border: 2.5px solid $grey;
+    border-radius: 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-style: normal; 
+    color: $grey;
+    display: grid;
+    place-items: center;
+}
+.footer-item-index2:hover .footer-vk {
+    fill: $green;
+}
+.footer-item-index2:hover {
+    border: 2.5px solid $green;
+}
+.footer-item-index3 {
+    height: 50px;
+    width: 50px;
+    border: 2.5px solid $grey;
+    border-radius: 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-style: normal; 
+    color: $grey;
+    display: grid;
+    place-items: center;
+}
+.footer-item-index3:hover .footer-dzen {
+    fill: $green;
+}
+.footer-item-index3:hover {
+    border: 2.5px solid $green;
+}
+.footer-item-index4 {
+    height: 50px;
+    width: 50px;
+    border: 2.5px solid $grey;
+    border-radius: 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-style: normal; 
+    color: $grey;
+    display: grid;
+    place-items: center;
+    margin-right: 0%;
+}
+.footer-item-index4:hover .footer-tg {
+    fill: $green;
+}
+.footer-item-index4:hover {
+    border: 2.5px solid $green;
+}
+.footer-item-index4 svg {
+    translate: (-1px);
 }
