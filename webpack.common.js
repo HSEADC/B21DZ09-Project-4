@@ -117,8 +117,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/catalog/catalogItem.html',
-      filename: './catalog/catalogItem.html'
+      template: './src/catalog/cmd-ctrl+tab.html',
+      filename: './catalog/cmd-ctrl+tab.html'
       // chunks: ['page']
     }),
 
