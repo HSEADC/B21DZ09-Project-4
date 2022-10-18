@@ -80,7 +80,7 @@ a {text-decoration: none;}
 .text-left h2 {
     position: relative;
     margin-left: 5%;
-    margin-top: -5%;
+    margin-top: -2%;
     font-style: normal;
     font-weight: 300;
     color: $white;
@@ -90,7 +90,7 @@ a {text-decoration: none;}
 }
 .text-right h2 {
     position: relative;
-    margin-top: -5%;
+    margin-top: -2%;
     margin-left: 59%;
     font-style: normal;
     font-weight: 300;
@@ -143,12 +143,12 @@ a {text-decoration: none;}
 .tags-index1-1 h3 {
     height: 50px;
     width: 119px;
-    border: 2px solid $grey2;
+    border: 2px solid $grey3;
     border-radius: 42px;
     font-size: 1.5rem;
     font-weight: 500;
     font-style: normal; 
-    color: $grey2;
+    color: $grey3;
     position: relative;
     display: grid;
     place-items: center;
@@ -156,23 +156,23 @@ a {text-decoration: none;}
 .tags-index1-2 h3 {
     height: 50px;
     width: 153px;
-    border: 2px solid $grey2;
+    border: 2px solid $grey3;
     border-radius: 42px;
     font-size: 1.5rem;
     font-weight: 500;
     font-style: normal; 
-    color: $grey2;
+    color: $grey3;
     display: grid;
     place-items: center;
 }
 .tags-index1-3 h3 {
     height: 50px;
     width: 166px;
-    border: 2px solid $grey2;
-    background-color: $grey2;
+    border: 2px solid $grey3;
+    background-color: $grey3;
     border-radius: 42px;
     font-size: 1.5rem;
-    font-weight: 500;
+    font-weight: 600;
     font-style: normal; 
     color: $black;
     display: grid;
@@ -180,41 +180,41 @@ a {text-decoration: none;}
     cursor: wait;
 }
 .tags-index1-3 h3:hover {
-    background-color: $grey2;
-    border: 2px solid $grey2;
+    background-color: $grey3;
+    border: 2px solid $grey3;
 }
 .tags-index1-4 h3 {
     height: 50px;
     width: 124px;
-    border: 2px solid $grey2;
+    border: 2px solid $grey3;
     border-radius: 42px;
     font-size: 1.5rem;
     font-weight: 500;
     font-style: normal; 
-    color: $grey2;
+    color: $grey3;
     display: grid;
     place-items: center;
 }
 .tags-index1-5 h3 {
     height: 50px;
     width: 158px;
-    border: 2px solid $grey2;
+    border: 2px solid $grey3;
     border-radius: 42px;
     font-size: 1.5rem;
     font-weight: 500;
     font-style: normal; 
-    color: $grey2;
+    color: $grey3;
     display: grid;
     place-items: center;
 }
 .tags-index1-6 h3 {
     height: 50px;
     width: 132px;
-    border: 2px solid $grey2;
-    background-color: $grey2;
+    border: 2px solid $grey3;
+    background-color: $grey3;
     border-radius: 42px;
     font-size: 1.5rem;
-    font-weight: 500;
+    font-weight: 600;
     font-style: normal; 
     color: $black;
     display: grid;
@@ -222,41 +222,41 @@ a {text-decoration: none;}
     cursor: wait;
 }
 .tags-index1-6 h3:hover {
-    background-color: $grey2;
-    border: 2px solid $grey2;
+    background-color: $grey3;
+    border: 2px solid $grey3;
 }
 .tags-index1-7 h3 {
     height: 50px;
     width: 195px;
-    border: 2px solid $grey2;
+    border: 2px solid $grey3;
     border-radius: 42px;
     font-size: 1.5rem;
     font-weight: 500;
     font-style: normal; 
-    color: $grey2;
+    color: $grey3;
     display: grid;
     place-items: center;
 }
 .tags-index1-8 h3 {
     height: 50px;
     width: 125px;
-    border: 2px solid $grey2;
+    border: 2px solid $grey3;
     border-radius: 42px;
     font-size: 1.5rem;
     font-weight: 500;
     font-style: normal; 
-    color: $grey2;
+    color: $grey3;
     display: grid;
     place-items: center;
 }
 .tags-index2-1 h3 {
     height: 50px;
     width: 132px;
-    border: 2px solid $grey2;
-    background-color: $grey2;
+    border: 2px solid $grey3;
+    background-color: $grey3;
     border-radius: 42px;
     font-size: 1.5rem;
-    font-weight: 500;
+    font-weight: 600;
     font-style: normal; 
     color: $black;
     display: grid;
@@ -264,8 +264,8 @@ a {text-decoration: none;}
     cursor: wait;
 }
 .tags-index2-1 h3:hover {
-    background-color: $grey2;
-    border: 2px solid $grey2;
+    background-color: $grey3;
+    border: 2px solid $grey3;
 }
 .tags-index2-2 h3 {
     height: 50px;
@@ -288,46 +288,46 @@ a {text-decoration: none;}
 .tags-index2-3 h3 {
     height: 50px;
     width: 132px;
-    border: 2px solid $white;
-    background-color: $white;
+    border: 2px solid $green;
+    background-color: $green;
     border-radius: 42px;
     font-size: 1.5rem;
-    font-weight: 500;
+    font-weight: 600;
     font-style: normal; 
     color: $black;
     display: grid;
     place-items: center;
 }
 .tags-index2-3 h3:hover {
-    background-color: $green;
-    border: 2px solid $green;
+    background-color: $grey3;
+    border: 2px solid $grey3;
 }
 .tags-index2-4 h3 {
     height: 50px;
     width: 170px;
-    border: 2px solid $green;
-    background-color: $green;
+    border: 2px solid $grey3;
+    background-color: $grey3;
     border-radius: 42px;
     font-size: 1.5rem;
-    font-weight: 500;
+    font-weight: 600;
     font-style: normal; 
     color: #0A0A0A;
     display: grid;
     place-items: center;
 }
 .tags-index2-4 h3:hover {
-    background-color: $white;
-    border: 2px solid $white;
+    background-color: $green;
+    border: 2px solid $green;
 }
 .tags-index2-5 h3 {
     height: 50px;
     width: 163px;
-    border: 2px solid $grey2;
+    border: 2px solid $grey3;
     border-radius: 42px;
     font-size: 1.5rem;
     font-weight: 500;
     font-style: normal; 
-    color: $grey2;
+    color: $grey3;
     display: grid;
     place-items: center;
 }
